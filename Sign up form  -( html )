@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            sign up page
+        </title>
+<body align = "center"  text="gray" >
+    <pre>
+        <fieldset>
+            <legend>Enter your Details</legend>
+<h1><b>Sign up</b></h1>
+    <form >
+<b>First Name</b> <input  type ="text" name = "first name"><p></p>
+<b>Last name</b>  <input type = "text" name= "last name" ><p></p>
+<b>Gender</b>             <input type="radio" name="gender" value="Male"/>Male<input type="radio" name="gender" value="female"/>female<p></p>
+<b>Country</b>              <select name="dropdown">
+    <option value="America">America</option>
+    <option value ="Algeria">Algeria</option>
+    <option value ="Bangladesh">Bangladesh</option>
+    <option value ="Brazil">Brazil</option>
+    <option value ="China">China</option>
+    <option value ="Colombia">Colombia</option>
+    <option value ="Denmark">Denmark</option>
+    <option value ="Egypt">Egypt</option>
+    <option value ="Fiji">Fiji</option>
+    <option value ="France">France</option>
+    <option value ="Germany">Germany</option>
+    <option value ="Greece">Greece</option>
+    <option value ="Hungary">Hungary</option>
+    <option value ="Iceland">Iceland</option>
+    <option value ="India">India</option>
+    <option value ="Iran">Iran</option>
+    <option value ="Iraq">Iraq</option>
+    <option value ="Japan">Japan</option>
+    <option value ="Kenya">Kenya</option>
+    <option value ="Libya">Libya</option>
+    <option value ="Malaysia">Malaysia</option>
+    <option value ="Nepal">Nepal</option>
+    <option value ="Oman">Oman</option>
+    <option value ="Pakistan">Pakistan</option>
+    <option value ="Qatar">Qatar</option>
+    <option value ="Russia">Russia</option>
+    <option value ="Serbia">Serbia</option>
+    <option value ="Turkey">Turkey</option>
+    <option value ="Ukraine">Ukraine</option>
+    <option value ="Vietnam">Vietnam</option>
+    <option value ="Zambia">Zambia</option>
+</select><p></p>
+<b>Languages Known</b> <input type="checkbox" name="checkbox" value="English"/>English<input type="checkbox" name="checkbox" value="Telugu"/>Telugu<input type="checkbox" name="checkbox" value="Hindi"/>Hindi<p></p>
+          <b>Upload Image</b>  <input type="file" name="Upload file" accept="image/*"/><p></p>
+<b>Phone No</b>   <input  type="number" name="phone no"><p></p>
+<b>Email</b>      <input  type= "email" name="email"><p></p>
+<b>Password</b>   <input placeholder="
+password" type="password" name="password"><p></p>
+<i><b>Already a member?</b></i> <button>Log in</button><p></p>
+<button>Sign up</button>
+</fieldset>
+</form>
+</pre>
+
+</body>
+    </head>
+</html>

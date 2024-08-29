@@ -1,1 +1,58 @@
-# forms-in-html-project-
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Internship</title>
+    </head>
+    <body bgcolor="#E6DCCD" >
+       <form method="post" action="demo1.html">
+        <fieldset>
+            <legend>Enter your Details</legend>
+        <pre>
+<i><b>Name</b></i>
+<input type="text" name="first name" placeholder="First"/>   <input type="text" name="lastname" placeholder="Last"/>
+
+<i><b>Email</b></i>                   <i><b>Date of Birth</b></i>
+<input type="Email" name="Email" />   <input type="date" name="date of birth" />
+
+<i><b>Address</b></i>
+<input type="text" name="street Address" placeholder="Street Address" />  <input type="text" name="street Address Line 2" placeholder="Street Address Line 2"/>
+
+<input type="text" name="city" placeholder="City/ Village"/>  <input type="text" name="state" placeholder="State"/> 
+
+<input type="text" name="region" placeholder="Region"/>  <input type="number" name="zip code" placeholder="Postal/ Zip Code"/>
+
+<i><b>college Name</b></i>
+<input type="text" name="School name" />
+
+<i><b>Phone</b></i>
+<input type="number" name="phone no" placeholder="### ### ####"/>
+
+<i><b>Attach Your CV</b></i>
+<input type="file" name="fileupload" action="document/*" />
+
+<i><b>Personal Statement</b></i>
+<textarea rows="7" cols="30"></textarea>
+
+<i><b>Choose how many days you want internship</b></i>
+<select name="dropdown">
+    <option>1 month</option>
+    <option>2 months</option>
+    <option>3 months</option>
+    <option>6 months</option>
+    <option>1 year</option>
+</select>
+
+<i><b>Area of intrest(You may select more than one)</b></i>
+
+<input type="checkbox" name="Administration" value="Administration"/>Administration <input type="checkbox" name="English" value="English"/>English <input type="checkbox" name="Events planning" value="Events planning"/>Events planning
+
+<input type="checkbox" name="Editing/ Publication" value="Editing/ Publication"/>Editing/ Publication <input type="checkbox" name="Marketing" value="Marketing"/>Marketing <input type="checkbox" name="Production-Lighting" value="Production-Lighting"/>Production-Lighting
+
+<input type="checkbox" name="Translation" value="Translation"/>Translation <input type="checkbox" name="Market research" value="Market research"/>Market research <input type="checkbox" name="Teaching" value="Teaching"/>Teaching
+
+<a href="demo.html"></a><button>Submit</button>
+      </pre>
+      </fieldset>
+</form>
+    </body>
+</html>
